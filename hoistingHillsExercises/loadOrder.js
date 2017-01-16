@@ -1,10 +1,8 @@
 function theBridgeOfHoistingDoom() {
   var sword = undefined;
+  var dwarf = undefined;
   var fall = undefined;
   var ring = undefined;
-  var dwarf = undefined;
-
-  ring();
   function fellowship() {
     return "friends";
   };
@@ -25,5 +23,6 @@ function theBridgeOfHoistingDoom() {
   ring = function() {
     return "precious";
   };
+  ring();
   return sword;
 }
