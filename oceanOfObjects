@@ -46,3 +46,13 @@ var findVehicle = function(name, list) {
 };
 
 findVehicle('Submarine', vehicles);
+
+//Building Objects II
+vehicle1.capacity = vehicle1.capacity + 4;
+vehicle2.submersible = false;
+vehicle3.weapon = "Torpedoes";
+vehicle1.submersible = false;
+vehicle2.weapon = "Lasers";
+vehicle3.capacity = 2 * (vehicle3.capacity);
+vehicle1.weapon = "Rear-Mounted Slingshot";
+vehicle3.submersible = true;
