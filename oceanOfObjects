@@ -56,3 +56,8 @@ vehicle2.weapon = "Lasers";
 vehicle3.capacity = 2 * (vehicle3.capacity);
 vehicle1.weapon = "Rear-Mounted Slingshot";
 vehicle3.submersible = true;
+
+//Moar Power!! Fight Pirates!!
+vehicle1["# of weapons "] = 8;
+vehicle2["# of weapons "] = 4;
+vehicle2["# of weapons "] = 1;
