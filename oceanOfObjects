@@ -223,3 +223,8 @@ var lighthouseRock = {
 };
 // call the addRanger method on lighthouseRock
 lighthouseRock.addRanger("Jordan Wade","dual-wield hand crossbow", 4);
+
+//Functions as Properties II
+lighthouseRock.addBulb = function(name, wattage) {
+  this.weaponBulbs.push([name, wattage]);
+};
