@@ -8,3 +8,7 @@ Array.prototype.countCattle = function (kind){
   }
   return numKind;
 };
+
+
+//Prototypes and Inheritance I
+alert(canyonCows.countCattle("calf")+ valleyCows.countCattle("bull")+ forestCows.countCattle("cow"));
