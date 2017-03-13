@@ -142,3 +142,15 @@ post9.numBirds = 0;
 post10.weathervane = "N";
 post8.lightsOn = false;
 post10.lightsOn = false;
+
+// challenge 9 - Prototypes
+
+function Fencepost(x, y, postNum) {
+	this.x = x;
+	this.y = y;
+	this.postNum = postNum;
+	this.connectionsTo = [];
+	this.sendRopeTo = function(connectedPost) {
+		this.connectionsTo.push(connectedPost);
+	};
+}
